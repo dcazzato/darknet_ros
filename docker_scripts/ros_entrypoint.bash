@@ -13,8 +13,8 @@ export AN_PROJECT_DIR=/root/catkin_ws/src/darknet_ros
 #}}}
 
 #script to run with a host network
-export ROS_MASTER_URI=http://$(hostname --ip-address):11311
-export ROS_HOSTNAME=$(hostname --ip-address)
+#export ROS_MASTER_URI=http://$(hostname --ip-address):11311
+#export ROS_HOSTNAME=$(hostname --ip-address)
 
 # setup ros environment
 source /opt/ros/melodic/setup.bash
